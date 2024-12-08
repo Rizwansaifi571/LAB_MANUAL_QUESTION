@@ -34,19 +34,42 @@ using namespace std;
 input X = 3
 input Y = 4
 for i 1 to X do
-forj = I to Y do
+forj = 1 to Y do
 Z=Z+i-j
 output Z
 2.4
 */
 
+// int main() {
+//     int x = 3;
+//     int y = 4;
+//     int z = 0;
+//     for(int i = 1; i <= x; i++) {
+//         for(int j = 1; j <= y; j++) {
+//             z = z + i - j;
+//         }
+//     }
+//     cout << z;
+// }
+
+
+/* Ques 3
+input P = 4
+input Q = 2
+for i 1 to P do
+forj 1 to Q do
+output R
+1. 20
+2. 28
+3. 24
+4. 30
+*/
+
 int main() {
-    int x = 3;
-    int y = 4;
-    int z = 0;
-    for(int i = 1; i <= x; i++) {
-        for(int j = 1; j <= y; j++) {
-            z = z + i - j;
+    int p = 4, q = 2, z = 0;
+    for(int i = 1; i <= p; i++) {
+        for(int j = 1; j <= q; j++) {
+            z = z + (i * j);
         }
     }
     cout << z;
