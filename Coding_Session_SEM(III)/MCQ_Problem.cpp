@@ -1,4 +1,4 @@
-/*
+/*  Ques 1
 input X = 3
 input Y = 4
 z=o
@@ -16,15 +16,39 @@ output Z
 #include <iostream>
 using namespace std;
 
+// int main() {
+//     int X = 3;
+//     int Y= 4;
+//     int Z = 0;
+//     for(int i = 1; i <= X; i++) {
+//         for(int j = 1; j <= Y; j++) {
+//             Z = Z + i + j;
+//         }
+//     }
+//     cout << Z << endl;
+//     return 0;
+// }
+
+
+/*  Ques 2
+input X = 3
+input Y = 4
+for i 1 to X do
+forj = I to Y do
+Z=Z+i-j
+output Z
+2.4
+*/
+
 int main() {
-    int X = 3;
-    int Y= 4;
-    int Z = 0;
-    for(int i = 1; i <= X; i++) {
-        for(int j = 1; j <= Y; j++) {
-            Z = Z + i + j;
+    int x = 3;
+    int y = 4;
+    int z = 0;
+    for(int i = 1; i <= x; i++) {
+        for(int j = 1; j <= y; j++) {
+            z = z + i - j;
         }
     }
-    cout << Z << endl;
-    return 0;
+    cout << z;
 }
+
