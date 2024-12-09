@@ -65,8 +65,34 @@ output R
 4. 30
 */
 
+// int main() {
+//     int p = 4, q = 2, z = 0;
+//     for(int i = 1; i <= p; i++) {
+//         for(int j = 1; j <= q; j++) {
+//             z = z + (i * j);
+//         }
+//     }
+//     cout << z;
+// }
+
+
+
+/* QUes 4
+input M 5
+input N = 3
+S = 1
+for i 1 to M do
+forj = 1 to N do
+S =S+(i*j)
+output S
+l. 46
+2. 61
+3. 81
+4. 91
+*/
+
 int main() {
-    int p = 4, q = 2, z = 0;
+    int p = 5, q = 3, z = 1;
     for(int i = 1; i <= p; i++) {
         for(int j = 1; j <= q; j++) {
             z = z + (i * j);
