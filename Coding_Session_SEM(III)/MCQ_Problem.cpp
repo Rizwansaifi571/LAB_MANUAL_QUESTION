@@ -91,13 +91,36 @@ l. 46
 4. 91
 */
 
+// int main() {
+//     int p = 5, q = 3, z = 1;
+//     for(int i = 1; i <= p; i++) {
+//         for(int j = 1; j <= q; j++) {
+//             z = z + (i * j);
+//         }
+//     }
+//     cout << z;
+// }
+
+
+/* Ques 5
+input X = 4
+input Y = 3
+for i 1 to X do
+forj = 1 to Y do
+output Z
+1. 1200
+2. 2160
+3. 1728
+4. None of these
+
+*/
+
 int main() {
-    int p = 5, q = 3, z = 1;
+    int p = 4, q = 3, z = 1;
     for(int i = 1; i <= p; i++) {
         for(int j = 1; j <= q; j++) {
-            z = z + (i * j);
+            z = z * (i + j);
         }
     }
     cout << z;
 }
-
