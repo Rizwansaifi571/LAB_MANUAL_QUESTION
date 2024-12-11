@@ -115,12 +115,39 @@ output Z
 
 */
 
+// int main() {
+//     int p = 4, q = 3, z = 1;
+//     for(int i = 1; i <= p; i++) {
+//         for(int j = 1; j <= q; j++) {
+//             z = z * (i + j);
+//         }
+//     }
+//     cout << z;
+// }
+
+
+
+/*Ques 6
+input N = 3
+input M 5
+s=o
+for i 1 to N do
+forj 1 to M do
+S=S-i-j
+output S
+1. -50
+2. -60
+3. -75
+4. -81
+*/
+
 int main() {
-    int p = 4, q = 3, z = 1;
+    int p = 3, q = 5, z = 0;
     for(int i = 1; i <= p; i++) {
         for(int j = 1; j <= q; j++) {
-            z = z * (i + j);
+            z = z  -i - j;
         }
     }
     cout << z;
 }
+
