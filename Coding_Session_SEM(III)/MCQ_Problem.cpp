@@ -141,13 +141,38 @@ output S
 4. -81
 */
 
+// int main() {
+//     int p = 3, q = 5, z = 0;
+//     for(int i = 1; i <= p; i++) {
+//         for(int j = 1; j <= q; j++) {
+//             z = z  -i - j;
+//         }
+//     }
+//     cout << z;
+// }
+
+
+
+/* QUes 7
+input X = 2
+input Y = 4
+z = o
+for i = 1 to X do
+for j = 1 to Y do
+Output Z
+1. 24
+2. 32
+3. 50
+4. 55
+
+*/
+
 int main() {
-    int p = 3, q = 5, z = 0;
+    int p = 2, q = 4, z = 0;
     for(int i = 1; i <= p; i++) {
         for(int j = 1; j <= q; j++) {
-            z = z  -i - j;
+            z = z +  (i * j) + j;
         }
     }
     cout << z;
 }
-
