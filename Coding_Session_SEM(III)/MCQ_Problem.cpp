@@ -167,11 +167,60 @@ Output Z
 
 */
 
+// int main() {
+//     int p = 2, q = 4, z = 0;
+//     for(int i = 1; i <= p; i++) {
+//         for(int j = 1; j <= q; j++) {
+//             z = z +  (i * j) + j;
+//         }
+//     }
+//     cout << z;
+// }
+
+
+/*Ques 8
+input A = 3
+input B = 3
+c=o
+for i = 1 to A do
+forj = 1 to B do
+C = C + (i + j) ^ 2
+output C
+1. 99
+2. 150
+3. 156
+4. None of these
+*/
+
+// int main() {
+//     int p = 3, q = 3, z = 0;
+//     for(int i = 1; i <= p; i++) {
+//         for(int j = 1; j <= q; j++) {
+//             z = z +  (i + j) * (i + j);
+//         }
+//     }
+//     cout << z;
+// }
+
+
+/*Ques 9
+input N = 4
+input M = 2
+for i = 1 to N do
+forj = 1 to M do
+R = R + (i -j)^ 2
+output R
+14
+2. 16
+3. 18
+4. 20
+*/
+
 int main() {
-    int p = 2, q = 4, z = 0;
+    int p = 4, q = 2, z = 0;
     for(int i = 1; i <= p; i++) {
         for(int j = 1; j <= q; j++) {
-            z = z +  (i * j) + j;
+            z = z +  (i - j) * (i - j);
         }
     }
     cout << z;
